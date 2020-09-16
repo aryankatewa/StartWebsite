@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-content>
-      It Worked!
+      Did it Work?
     </v-content>
   </div>
 </template>
