@@ -3,32 +3,213 @@
   <v-app id="inspire">
 <Slide Y/>   
     <!--Header -->
-    <v-app-bar color="yellow" dark fixed app>
-      <v-toolbar-title>Aryan Katewa</v-toolbar-title>
+    <AppBar/>
+    <Categoriesbtn/>
+    <!--<v-app-bar color="yellow dark" dark fixed app>
+      <v-toolbar-title>Freshmenu</v-toolbar-title>-->
        <!-- Component Example -->
+    
+      
       <Badge/>
     </v-app-bar>
-<Breadcrumb/>
-<Accordion/>
-<Elevation/>
-<Elevation/>
-<Elevation/>
-<Scroll/>
-<Carousel/>
-<Grids/>
-<HorizontalCards/>
-<CustomActions/>
-<Loadingcard/>
-<Modal/>
-<Form/>
+    
+    <v-spacer></v-spacer>
+    <Breadcrumb/>
+    <v-container 
+    class="mx-10">
+    <v-img 
+      src="Penne Alfredo.jpeg" max-height="433" max-width="768" class="float-left">
+    </v-img>
+    
+    <v-row>
+      <v-flex class="mx-10" 
+       md12>
+         <h1>Penne Alfredo</h1> 
+      </v-flex>
+    </v-row>
+    
+    <v-row>
+      <v-flex class="mx-10"
+      md12>
+        <v-img src="Veg Icon.png" max-height="20" max-width="20" class="float-left">
+        </v-img> 
+        <p class="font-weight-light">Continental</p>
+      </v-flex>
+    </v-row>    
+
+<v-spacer></v-spacer>
+    
+    <v-row>
+      <v-flex class="mx-10"
+      md12>
+    <h2><p class="font-weight-medium">₹ 199</p></h2>
+      </v-flex>
+    </v-row>  
+
+
+    <v-row>
+      <v-flex class="mx-10"
+      md12>
+    <v-btn rounded color="orange" dark>ADD + </v-btn>
+    <h5><p class="font-weight-thin">Customisable</p></h5>
+      </v-flex>
+    </v-row>  
+  
+    
+    <v-row>
+      <v-flex class="mx-10"
+      md12>
+    <h4><p class="font-weight-light">Penne pasta tossed in a luscious Alfredo sauce along with 
+veggies, finished off with fresh parsley and grated 
+cheese. 
+Bring out the Kid-in-You!</p></h4>
+      </v-flex>
+    </v-row>
+
+<br>
+
+    <v-row>
+      <v-flex class="mx-10"
+      md12>
+    <h3><p class="font-weight-medium">Ingredients</p></h3>
+    <h4><p class="font-weight-light">Penne, Parmesan, Broccoli, Bell Pepper, Olive, Béchamel, 
+    Nutmeg</p></h4>
+      </v-flex>
+    </v-row>
+
+<br>
+      
+      <ImageComponent class="float-right"/>
+      
+      <v-flex class="mx-16"
+      md12>
+    <h5><p class="font-weight-light">
+The images shown do not directly compliment the primary Selected image
+under similar contexts.</p></h5>
+     </v-flex>
+
+     <v-img src="Facebook Icon.png" max-height="20" max-width="20" class="float-left"></v-img>
+     <v-img src="Instagram icon.png" max-height="20" max-width="20" class="float-left"></v-img>
+     <v-img src="Twitter Icon.png" max-height="20" max-width="20" class="float-left"></v-img>
+
+     <v-row>
+       <v-flex class="mx-16"
+      md12>
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
+       </v-flex>
+     </v-row>
+
+     <br>
+     <br>
+     <br>
+     <v-row>
+     <v-flex class="mx-3"
+      md12>
+     <h1>Reviews</h1>
+     </v-flex>
+     </v-row>
+     <p class="font-weight-regular">Total Reviews(1,024)</p>
+
+     <br>
+     <br>
+     <v-img src="Profile logo 1.png" max-height="100" max-width="100" class="float-left"></v-img>
+
+    <v-row>
+      <v-flex class="mx-10" 
+       md12>
+         <p class="font-weight-regular" <h2>Harsh Soni</h2></p>
+      </v-flex>
+    </v-row>
+    
+      <v-row>
+      <v-flex class="mx-10" 
+       md12>
+         <p class="font-weight-light">91 Reviews & 14 Followers</p>
+      </v-flex>
+      <v-flex class="mx-16"
+      md12
+      justify right>
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
+      </v-flex>
+      </v-row>
+
+      <v-row>
+      <v-flex class="mx-10" 
+       md12>
+         <p class="font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
+irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </v-flex>
+      <v-btn icon color="deep-orange">
+              <v-icon>mdi-thumb-up</v-icon>
+            </v-btn>
+    </v-row>
+
+    <br>
+     <br>
+     <v-img src="Profile logo 2.png" max-height="100" max-width="100" class="float-left"></v-img>
+
+    <v-row>
+      <v-flex class="mx-10" 
+       md12>
+         <p class="font-weight-regular" <h2>Bani Kaur Gauri</h2></p>
+      </v-flex>
+    </v-row>
+    
+      <v-row>
+      <v-flex class="mx-10" 
+       md12>
+         <p class="font-weight-light">245 Reviews & 47 Followers</p>
+      </v-flex>
+      <v-flex class="mx-16"
+      md12
+      justify right>
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
+      </v-flex>
+      </v-row>
+
+      <v-row>
+      <v-flex class="mx-10" 
+       md12>
+         <p class="font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
+irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </v-flex>
+    <v-btn icon color="deep-orange">
+              <v-icon>mdi-thumb-up</v-icon>
+            </v-btn>
+    </v-row>
+      
+
+
+    
+    
+    
+      
+    
+    </v-container>
     <!-- Body -->
     <v-content light>
       <nuxt /> 
     </v-content>
-    <Elevation/>
+    
     <!-- Footer -->
     <v-footer color="indigo" app>
-      <span class="white--text">&copy; {{ new Date().getFullYear() }}</span>
+      <span class="white--text"> &copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
 
   </v-app>
@@ -43,11 +224,11 @@ export default {}
     border: 1px solid;
   }
 
-   /*
+   
    #inspire {
     
     background-color: white;
     color: black;
     
-  }*/
+  }
 </style>

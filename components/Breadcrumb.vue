@@ -1,8 +1,8 @@
 <template>
   <div>
-    <v-breadcrumbs :items="items"></v-breadcrumbs>
+    <v-breadcrumbs :items="items" divider="-"></v-breadcrumbs>
 
-    <v-breadcrumbs :items="items" large></v-breadcrumbs>
+    
   </div>
 </template>
 <script>
@@ -10,19 +10,19 @@
     data: () => ({
       items: [
         {
-          text: 'Dashboard',
+          text: 'Home',
           disabled: false,
-          href: 'breadcrumbs_dashboard',
+          href: 'breadcrumbs_Home',
         },
         {
-          text: 'Link 1',
+          text: 'Continental',
           disabled: false,
-          href: 'breadcrumbs_link_1',
+          href: 'breadcrumbs_Continental',
         },
         {
-          text: 'Link 2',
-          disabled: true,
-          href: 'breadcrumbs_link_2',
+          text: 'Penne Alfredo',
+          disabled: false,
+          href: 'breadcrumbs_Penne Alfredo',
         },
       ],
     }),
