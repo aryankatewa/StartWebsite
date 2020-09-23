@@ -2,22 +2,28 @@
   <v-container fluid>
     <v-row>
       <v-col cols="5" md="3">
-        <v-img
-          src="Dish 2nd Image.png" max-height="200" max-width="200">
+        <v-card="">
+        <!--<v-img
+          src="Dish 2nd Image.png" max-height="200" max-width="200" class="ml-n1 ">
           
-        ></v-img>
+        </v-img>-->
+        </v-card>
+      </v-col>
+
+      <v-col cols="6" md="3">
+        <v-card class="">
+          <!--<v-img src="Dish 3rd Image.png" max-height="190" max-width="190">
+          
+          </v-img>-->
+        </v-card>
       </v-col>
 
       <v-col cols="5" md="2">
-        <v-img src="Dish 3rd Image.png" max-height="220" max-width="220">
+        <v-card>
+        <!--<v-img src="Dish 4th Image.png" max-height="190" max-width="190">
           
-        </v-img>
-      </v-col>
-
-      <v-col cols="5" md="2">
-        <v-img src="Dish 4th Image.png" max-height="190" max-width="190">
-          
-        </v-img>
+        </v-img>-->
+        </v-card>
       </v-col>
     </v-row>
   </v-container>

@@ -11,7 +11,7 @@
     
       
       <Badge/>
-    </v-app-bar>
+    <!--</v-app-bar>-->
     
     <v-spacer></v-spacer>
     <Breadcrumb/>
@@ -121,7 +121,7 @@ under similar contexts.</p></h5>
     <v-row>
       <v-flex class="mx-10" 
        md12>
-         <p class="font-weight-regular" <h2>Harsh Soni</h2></p>
+         <p class="font-weight-regular"> <h2>Harsh Soni</h2></p>
       </v-flex>
     </v-row>
     
@@ -161,7 +161,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <v-row>
       <v-flex class="mx-10" 
        md12>
-         <p class="font-weight-regular" <h2>Bani Kaur Gauri</h2></p>
+         <p class="font-weight-regular"> <h2>Bani Kaur Gauri</h2></p>
       </v-flex>
     </v-row>
     
