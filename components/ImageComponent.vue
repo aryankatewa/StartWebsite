@@ -1,31 +1,14 @@
 <template>
   <v-container fluid>
-    <v-row>
-      <v-col cols="5" md="3">
-        <v-card="">
-        <!--<v-img
-          src="Dish 2nd Image.png" max-height="200" max-width="200" class="ml-n1 ">
-          
-        </v-img>-->
-        </v-card>
-      </v-col>
-
-      <v-col cols="6" md="3">
-        <v-card class="">
-          <!--<v-img src="Dish 3rd Image.png" max-height="190" max-width="190">
-          
-          </v-img>-->
-        </v-card>
-      </v-col>
-
-      <v-col cols="5" md="2">
-        <v-card>
-        <!--<v-img src="Dish 4th Image.png" max-height="190" max-width="190">
-          
-        </v-img>-->
-        </v-card>
-      </v-col>
-    </v-row>
+    <v-row>      
+      <v-col   cols="12" md="2" class="mt-n16">   <v-card                                  tile            color="#546E7A"            >            <v-img        :aspect-ratio="16/11"        src="Dish 2nd Image.png"      ></v-img>                     </v-card>               </v-col>     
+              <v-col   cols="12" md="2" class="mx-16 mt-n16">   <v-card                                  tile            color="#546E7A"            >            <v-img        :aspect-ratio="16/11"        src="Dish 3rd Image.png"      ></v-img>                     </v-card>               </v-col>     
+              <v-col   cols="12" md="2" class="mt-n16">   <v-card                                  tile            color="#546E7A"            >            <v-img        :aspect-ratio="16/11"        src="Dish 4th Image.png"      ></v-img>                     </v-card>               </v-col>             
+                        
+                  <div>
+                    </div>        
+                      
+                    </v-row>
   </v-container>
 </template>
 

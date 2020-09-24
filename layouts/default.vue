@@ -17,10 +17,17 @@
     <Breadcrumb/>
     <v-container 
     class="mx-10">
+    
+    
+    
     <v-img 
       src="Penne Alfredo.jpeg" max-height="433" max-width="768" class="float-left">
     </v-img>
     
+    
+    
+    
+    <v-col>
     <v-row>
       <v-flex class="mx-10" 
        md12>
@@ -28,12 +35,13 @@
       </v-flex>
     </v-row>
     
+    
     <v-row>
       <v-flex class="mx-10"
       md12>
-        <v-img src="Veg Icon.png" max-height="20" max-width="20" class="float-left">
+        <v-img src="Veg Icon.png" max-height="20" max-width="20" class="float-left my-1">
         </v-img> 
-        <p class="font-weight-light">Continental</p>
+        <p class="font-weight-light mb-1">Continental</p>
       </v-flex>
     </v-row>    
 
@@ -59,7 +67,7 @@
     <v-row>
       <v-flex class="mx-10"
       md12>
-    <h4><p class="font-weight-light">Penne pasta tossed in a luscious Alfredo sauce along with 
+    <h4><p class="font-weight-light mt-4">Penne pasta tossed in a luscious Alfredo sauce along with 
 veggies, finished off with fresh parsley and grated 
 cheese. 
 Bring out the Kid-in-You!</p></h4>
@@ -72,14 +80,25 @@ Bring out the Kid-in-You!</p></h4>
       <v-flex class="mx-10"
       md12>
     <h3><p class="font-weight-medium">Ingredients</p></h3>
-    <h4><p class="font-weight-light">Penne, Parmesan, Broccoli, Bell Pepper, Olive, Béchamel, 
+    <h4><p class="font-weight-light mt-n2">Penne, Parmesan, Broccoli, Bell Pepper, Olive, Béchamel, 
     Nutmeg</p></h4>
+    <br>
+    <h3><p class="font-weight-medium ">Nutritional Values</p></h3>
+    
       </v-flex>
     </v-row>
+    </v-col>
 
-<br>
+    <v-row>
+      <v-flex class="mx-10">
       
-      <ImageComponent class="float-right"/>
+      <v-img src="Nut. values.png" max-width="400" max-height="400" class="float-right mr-n1 mt-n6"></v-img>
+      </v-flex>
+    </v-row>
+    
+  
+      
+      <ImageComponent/>
       
       <v-flex class="mx-16"
       md12>
@@ -88,19 +107,21 @@ The images shown do not directly compliment the primary Selected image
 under similar contexts.</p></h5>
      </v-flex>
 
-     <v-img src="Facebook Icon.png" max-height="20" max-width="20" class="float-left"></v-img>
-     <v-img src="Instagram icon.png" max-height="20" max-width="20" class="float-left"></v-img>
-     <v-img src="Twitter Icon.png" max-height="20" max-width="20" class="float-left"></v-img>
-
      <v-row>
-       <v-flex class="mx-16"
-      md12>
-     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
-     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
-     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
-     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
-     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
-       </v-flex>
+       <v-col>
+     <v-img src="Facebook Icon.png" max-height="25" max-width="25" class="float-left rounded" ></v-img>
+     <v-img src="Instagram icon.png" max-height="25" max-width="25" class="float-left mx-3" ></v-img>
+     <v-img src="Twitter Icon.png" max-height="25" max-width="25" class="float-left rounded"></v-img>
+    </v-col>
+     
+       <v-col>
+     <v-img src="Golden Star.png" max-height="25" max-width="25" class="float-left"></v-img>
+     <v-img src="Golden Star.png" max-height="25" max-width="25" class="float-left"></v-img>
+     <v-img src="Golden Star.png" max-height="25" max-width="25" class="float-left"></v-img>
+     <v-img src="Golden Star.png" max-height="25" max-width="25" class="float-left"></v-img>
+     <v-img src="Golden Star.png" max-height="25" max-width="25" class="float-left"></v-img>
+     </v-col>
+       
      </v-row>
 
      <br>
@@ -128,30 +149,29 @@ under similar contexts.</p></h5>
       <v-row>
       <v-flex class="mx-10" 
        md12>
-         <p class="font-weight-light">91 Reviews & 14 Followers</p>
+         <p class="font-weight-light mt-n5">91 Reviews & 14 Followers</p>
       </v-flex>
       <v-flex class="mx-16"
-      md12
-      justify right>
-     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
-     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
-     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
-     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
-     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
+      md12>
+      <v-col cols="12 mt-n13">
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-right"></v-img>
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-right"></v-img>
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-right"></v-img>
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-right"></v-img>
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-right"></v-img>
+     </v-col>
       </v-flex>
       </v-row>
 
       <v-row>
       <v-flex class="mx-10" 
        md12>
-         <p class="font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+         <p class="font-weight-light ml-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
 irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </v-flex>
-      <v-btn icon color="deep-orange">
-              <v-icon>mdi-thumb-up</v-icon>
-            </v-btn>
+      
     </v-row>
 
     <br>
@@ -168,30 +188,29 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       <v-row>
       <v-flex class="mx-10" 
        md12>
-         <p class="font-weight-light">245 Reviews & 47 Followers</p>
+         <p class="font-weight-light mt-n5">245 Reviews & 47 Followers</p>
       </v-flex>
       <v-flex class="mx-16"
-      md12
-      justify right>
-     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
-     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
-     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
-     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
-     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-left"></v-img>
+      md12>
+      <v-col cols="12 mt-n13" >
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-right"></v-img>
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-right"></v-img>
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-right"></v-img>
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-right"></v-img>
+     <v-img src="Golden Star.png" max-height="20" max-width="20" class="float-right"></v-img>
+     </v-col>
       </v-flex>
       </v-row>
 
       <v-row>
       <v-flex class="mx-10" 
        md12>
-         <p class="font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+         <p class="font-weight-light ml-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
 irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </v-flex>
-    <v-btn icon color="deep-orange">
-              <v-icon>mdi-thumb-up</v-icon>
-            </v-btn>
+    
     </v-row>
       
 
