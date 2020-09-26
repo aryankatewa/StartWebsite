@@ -13,16 +13,24 @@
       <Badge/>
     <!--</v-app-bar>-->
     
-    <v-spacer></v-spacer>
+    <v-spacer> </v-spacer>
+  <div class="my-0 ml-n1" label="flat">
+            <v-btn color="grey-darken-4" dark large>Categories</v-btn>
+          </div>
+    <v-col cols="12" class="ml-6 my-n4">
     <Breadcrumb/>
+    </v-col>
+
+    <br>
     <v-container 
     class="mx-10">
     
     
-    
-    <v-img 
-      src="Penne Alfredo.jpeg" max-height="433" max-width="768" class="float-left">
+    <v-col cols="12" md="8" sm="8">
+    <v-img
+      src="Penne Alfredo.jpeg" class="float-left">
     </v-img>
+    </v-col>
     
     
     
@@ -50,7 +58,7 @@
     <v-row>
       <v-flex class="mx-10"
       md12>
-    <h2><p class="font-weight-medium">₹ 199</p></h2>
+    <h2><p class="font-weight-medium ml-1">₹ 199</p></h2>
       </v-flex>
     </v-row>  
 
@@ -92,7 +100,7 @@ Bring out the Kid-in-You!</p></h4>
     <v-row>
       <v-flex class="mx-10">
       
-      <v-img src="Nut. values.png" max-width="400" max-height="400" class="float-right mr-n1 mt-n6"></v-img>
+      <v-img src="Nut. values.png" max-width="400" max-height="400" class="float-right mr-n4 mt-n6"></v-img>
       </v-flex>
     </v-row>
     
@@ -109,18 +117,18 @@ under similar contexts.</p></h5>
 
      <v-row>
        <v-col>
-     <v-img src="Facebook Icon.png" max-height="25" max-width="25" class="float-left rounded" ></v-img>
+     <v-img src="Facebook Icon.png" max-height="25" max-width="25" class="float-left rounded ml-5" ></v-img>
      <v-img src="Instagram icon.png" max-height="25" max-width="25" class="float-left mx-3" ></v-img>
      <v-img src="Twitter Icon.png" max-height="25" max-width="25" class="float-left rounded"></v-img>
     </v-col>
      
        <v-col>
+     <v-img src="Golden Star.png" max-height="25" max-width="25" class="float-left ml-n2"></v-img>
      <v-img src="Golden Star.png" max-height="25" max-width="25" class="float-left"></v-img>
      <v-img src="Golden Star.png" max-height="25" max-width="25" class="float-left"></v-img>
      <v-img src="Golden Star.png" max-height="25" max-width="25" class="float-left"></v-img>
      <v-img src="Golden Star.png" max-height="25" max-width="25" class="float-left"></v-img>
-     <v-img src="Golden Star.png" max-height="25" max-width="25" class="float-left"></v-img>
-     </v-col>
+       </v-col>
        
      </v-row>
 
