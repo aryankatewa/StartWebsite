@@ -1,10 +1,11 @@
 <template>
 <v-footer 
+  
       absolute
       app
       color="grey-darken" 
       > 
-      <span class="white--text">&copy; {{ new Date().getFullYear() }}</span>
+      <span class="white--text"></span>
       <v-container>
         <v-row>
           <v-col
@@ -45,7 +46,7 @@
             <font size="2">Bulk/Party Order<br><br>
             Cake Order<br><br>
             FreshClub<br><br>
-            Offers<br></br></font>
+            Offers<br></font>
           </v-col>
             
 
@@ -71,7 +72,7 @@
     </v-footer>
 
 
-  </v-app>
+  
 </template>
 
 <script>

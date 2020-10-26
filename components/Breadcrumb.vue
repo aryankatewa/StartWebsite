@@ -1,30 +1,36 @@
 <template>
-  <div>
-    <v-breadcrumbs :items="items" divider="-"></v-breadcrumbs>
+  <div>
+    <v-breadcrumbs :items="items" class="my-4 mx-3">
+      <template v-slot:divider>
+        <v-icon color="grey">mdi-greater-than</v-icon>
+      </template>
+    </v-breadcrumbs>
 
-    
-  </div>
+   
+  </div>
 </template>
+
 <script>
-  export default {
-    data: () => ({
-      items: [
-        {
-          text: 'Home',
-          disabled: false,
-          href: 'breadcrumbs_Home',
-        },
-        {
-          text: 'Continental',
-          disabled: false,
-          href: 'breadcrumbs_Continental',
-        },
-        {
-          text: 'Penne Alfredo',
-          disabled: false,
-          href: 'breadcrumbs_Penne Alfredo',
-        },
-      ],
-    }),
-  }
+  export default {
+    data: () => ({
+      items: [
+        {
+          text: 'Home',
+          disabled: false,
+          href: 'breadcrumbs_dashboard',
+        },
+        {
+          text: 'Categories',
+          disabled: false,
+          href: 'breadcrumbs_link_1',
+        },
+       {
+          text: 'Penne Alfredo',
+          disabled: false,
+          href: 'breadcrumbs_link_1',
+        },
+        
+      ],
+    }),
+  }
 </script>

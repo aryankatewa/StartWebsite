@@ -4,7 +4,7 @@
     flat
     height="1px"
     tile
-    class="sm-12 md-12 "
+    class="sm-12 md-12"
   >
     <v-toolbar dense color="white">
 
