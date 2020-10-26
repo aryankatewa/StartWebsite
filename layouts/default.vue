@@ -189,9 +189,9 @@
        md12>
          <p class="font-weight-light mt-1">91 Reviews &amp; 14 Followers</p>
       </v-flex>
-        <v-flex class="mx-16"
-        >
-        <v-col cols="12 mt-n13">
+        <v-flex class="mx-16 mt-6"
+         md="12">
+          <v-col cols="12 mt-n13">
           <v-rating  
             color="yellow" aspect-ratio="16/7"  class="float-right" half-increments length="5"  value="4">
           </v-rating>
