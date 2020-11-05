@@ -3,8 +3,8 @@
     color="white"
     flat
     height="1px"
-    tile
-    class="sm-12 md-12"
+    width="120000"
+    
   >
     <v-toolbar dense color="white">
 
@@ -12,7 +12,7 @@
    
 
       
-      <v-img class="md-mr-12" src="https://dog55574plkkx.cloudfront.net/storelogo/web/FreshMenu.png" max-width="180" max-height="90"></v-img>
+      <v-img src="https://dog55574plkkx.cloudfront.net/storelogo/web/FreshMenu.png" max-width="180" max-height="90"></v-img>
       <v-row>
       <v-col>
       

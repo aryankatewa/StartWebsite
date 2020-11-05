@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-breadcrumbs :items="items" class="my-4 mx-3">
+    <v-breadcrumbs :items="items" class="my-4 mx-n7">
       <template v-slot:divider>
         <v-icon color="grey">mdi-greater-than</v-icon>
       </template>
